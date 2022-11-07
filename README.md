@@ -23,10 +23,10 @@ As the BMW model features the arc-based or link-based formulation, it is sometim
 
 ### Frank-Wolfe Algorithm
 
-1. [AequilibraE](http://www.aequilibrae.com/python/latest/). It provides Conjugate Frank-Wolfe (CFW) and Biconjugate FW (BFW) for faster convergency besides the standard implementation of FW algorithm. See [here](https://aequilibrae.com/python/V.0.6.1/traffic_assignment.html#algorithms-available) for details. It is also a comprehensive Python package for transportation modeling.
-2. [chkwon/TrafficAssignment.jl](https://github.com/chkwon/TrafficAssignment.jl). A Julia package for finding traffic user equilibrium flow. Similar to , it also implements FW method, CFW, and BFW along with golden section search method and Newton's method for line search.
-3. [ZhengLi95/User-Equilibrium-Solution](https://github.com/ZhengLi95/User-Equilibrium-Solution). A standard implementation of FW algorithm with a detailed [writeup](https://github.com/ZhengLi95/User-Equilibrium-Solution/blob/master/static/user-equilibrium-solution.pdf).
-4. [nlperic/ta-lab](https://github.com/nlperic/ta-lab). A simple implementation of FW algorithm in Python only dependent on numpy.
+1. [AequilibraE](http://www.aequilibrae.com/python/latest/). It provides Conjugate FW (CFW) and Biconjugate FW (BFW) for faster convergency besides the standard implementation of FW algorithm. See [here](https://aequilibrae.com/python/V.0.6.1/traffic_assignment.html#algorithms-available) for details. It is also a comprehensive Python package for transportation modeling.
+2. [chkwon/TrafficAssignment.jl](https://github.com/chkwon/TrafficAssignment.jl). A Julia package for finding traffic user equilibrium flow. Similar to AequilibraE, it also implements FW, CFW, and BFW along with golden section search method and Newton's method for line search.
+3. [ZhengLi95/User-Equilibrium-Solution](https://github.com/ZhengLi95/User-Equilibrium-Solution). A standard implementation of FW algorithm with the Golden section method in Python with a detailed [writeup](https://github.com/ZhengLi95/User-Equilibrium-Solution/blob/master/static/user-equilibrium-solution.pdf).
+4. [nlperic/ta-lab](https://github.com/nlperic/ta-lab). A simple implementation of FW algorithm with both the bisection method and MSA in Python only dependent on numpy.
 
 ### Gradient Projection
 
