@@ -1,5 +1,5 @@
 # Transoms
-A collection of good open-source projects on **TRANS**portation **O**ptimization, **M**odeling, and **S**imulation (**TRANSOMS**).
+A collection of good open-source projects on Traffic Assignment Problem.
 
 ## Shortest Paths
 
@@ -38,9 +38,5 @@ As the BMW model features the arc-based or link-based formulation, it is sometim
 1. [asu-trans-ai-lab/DTALite](https://github.com/asu-trans-ai-lab/DTALite). Simulation-based dynamic traffic assignment (DTA) to manifest traffic evolution over time through some representation of traffic dynamics including kinematic wave model, spatial queue, etc.
 
 ## Traffic Simulation
-
-Coming soon
-
-## Vehicle Routing Problem
 
 Coming soon
