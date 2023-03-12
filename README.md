@@ -1,9 +1,9 @@
 # Transoms
-A collection of good open-source projects on Traffic Assignment Problem.
+A collection of good open-source projects covering the fundamental components related to the Traffic Assignment Problem (TAP).
 
 ## Shortest Paths
 
-1. [tntp](http://www.bgu.ac.il/~bargera/tntp/FW.zip) from Dr. Hillel Bar-Gera. One of the most efficient Deque implementations of the modified label correcting (MLC) algorithm in C. See mincostroutes.cpp for details. Its enhanced C++ counterpart can be found [here](https://github.com/jdlph/Path4GMNS/blob/master/engine/path_engine.cpp)
+1. [tntp](http://www.bgu.ac.il/~bargera/tntp/FW.zip) from Dr. Hillel Bar-Gera. One of the most efficient Deque implementations of the modified label correcting (MLC) algorithm in C. See mincostroutes.cpp for details. Its enhanced C++ counterpart has been served as the path engine for [Path4GMNS](https://github.com/jdlph/Path4GMNS/blob/master/engine/path_engine.cpp) and [TransOMS](https://github.com/jdlph/TransOMS).
 2. [jdlph/shortest-path-algorithms](https://github.com/jdlph/shortest-path-algorithms). A comprehensive list of the three special implementations of the MLC algorithm in Python including FIFO, Deque, and Dijkstra's algorithm. It also demonstrates how to boost their performances using proper data structures. Analysis on time complexity is provided. 
 3. [nlperic/ta-lab](https://github.com/nlperic/ta-lab).  A simple [Python implementation](https://github.com/nlperic/ta-lab/blob/master/assignment/shortest_path.py) of the heap Dijkstra's algorithm and [Yen's algorithm](https://en.wikipedia.org/wiki/Yen%27s_algorithm) on solving the K-shortest paths problem (KSP) via a recursive call of the heap Dijkstra's algorithm. 
 
@@ -39,4 +39,4 @@ As the BMW model features the arc-based or link-based formulation, it is sometim
 
 ## Traffic Simulation
 
-Coming soon
+1. [Path4GMNS](https://github.com/jdlph/Path4GMNS). A simple traffic simulator using the point queue model. The routing decisions could be from the UE traffic assignment or simply following the shortest paths.
