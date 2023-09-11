@@ -37,11 +37,13 @@ As the BMW model features the arc-based or link-based formulation, it is sometim
 
 1. [DTALite](https://github.com/asu-trans-ai-lab/DTALite). Simulation-based dynamic traffic assignment (DTA) to manifest traffic evolution over time through some representation of traffic dynamics including kinematic wave model, spatial queue, etc.
 2. [Path4GMNS](https://github.com/jdlph/Path4GMNS). A simple traffic simulator using the point queue model. The routing decisions could be from the UE traffic assignment or simply following the shortest paths.
+3. [TransOMS](https://github.com/jdlph/TransOMS). It features a modern, cross-platform, and lightning-fast DTA system besides the same functionality as DTALite.
 
 ## Good References
 
 1. Sheffi, Y. (1985). [Urban Transportation Networks: Equilibrium Analysis with Mathematical Programming Methods](http://web.mit.edu/sheffi/www/selectedMedia/sheffi_urban_trans_networks.pdf). Prentice-Hall.
 2. Boyles, S. D., N. E. Lownes, & A. Unnikrishnan. (2023). [Transportation Network Analysis, Volume I, Version 0.91](https://sboyles.github.io/book.pdf).
-3. Bertsekas, D., & Gafni, E. (1983). [Projected Newton methods and optimization of multicommodity flows] (https://web.mit.edu/dimitrib/www/Gafni_Newton.pdf). IEEE Transactions on Automatic Control, 28(12), 1090–1096.
+3. Bertsekas, D., & Gafni, E. (1983). [Projected Newton methods and optimization of multicommodity flows](https://web.mit.edu/dimitrib/www/Gafni_Newton.pdf). IEEE Transactions on Automatic Control, 28(12), 1090–1096.
 4. Jayakrishnan, R., Tsai, W. K., Prashker, J. N., & Rajadyaksha, S. (1994). [A Faster Path-Based Algorithm for Traffic Assignment (Working Paper UCTC No. 191)](https://escholarship.org/uc/item/2hf4541x). The University of California Transportation Center.
-5. Zhou, X., & Taylor, J. (2014). DTALite: A queue-based mesoscopic traffic simulator for fast model evaluation and calibration. Cogent Engineering, 1(1). https://doi.org/10.1080/23311916.2014.961345
+5. Peeta, S., & Ziliaskopoulos, A. K. (2001). Foundations of Dynamic Traffic Assignment: The Past, the Present and the Future. Networks and Spatial Economics 2001 1:3, 1(3), 233–265. https://doi.org/10.1023/A:1012827724856
+6. Zhou, X., & Taylor, J. (2014). DTALite: A queue-based mesoscopic traffic simulator for fast model evaluation and calibration. Cogent Engineering, 1(1). https://doi.org/10.1080/23311916.2014.961345
